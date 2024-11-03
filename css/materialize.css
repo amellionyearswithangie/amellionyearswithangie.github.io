@@ -2830,6 +2830,7 @@ video.responsive-video {
   opacity: 0;
   position: absolute;
   left: 50%;
+  top:-120%;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
