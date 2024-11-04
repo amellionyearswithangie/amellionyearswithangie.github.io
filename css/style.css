@@ -5,7 +5,6 @@
  *
  * Made By MaterializeCSS.com
  */
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -20,20 +19,55 @@ p {
 }
 
 .parallax-container {
-  min-height: 90vh;
+  min-height: 100vh;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .parallax-container .section {
     width: 100%;
 }
 
+/* cover */
+.cover-title {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top:250px;
+}
+.cover-title .pre-heading {
+  line-height:0;
+}
+.cover-title h1 {
+  line-height: 90%;
+}
+.gallery {
+  margin-bottom:80px;
+}
+.gallery .row {
+  margin-bottom: 0px;
+}
+.gallery .row .col {
+  padding: 0px;
+}
+.gallery h4 {
+  margin-top:100px;
+  margin-bottom: 80px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.color-circle {
+  /* display: inline-block; */
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
   }
   #index-banner .section {
     top: 10%;
@@ -46,6 +80,10 @@ p {
   }
   .parallax-container .parallax img { 
     left: -20%;
+  }
+  .gallery h4 {
+    margin-top:0;
+    margin-bottom: 30px;
   }
 
 }
@@ -144,6 +182,11 @@ footer.page-footer {
   font-style: normal;
 }
 
+.libre-baskerville-light {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 .libre-baskerville-regular {
   font-family: "Libre Baskerville", serif;
@@ -163,10 +206,3 @@ footer.page-footer {
   font-style: italic;
 }
 
-/* cover */
-.cover-title .pre-heading {
-  line-height:0;
-}
-.cover-title h1 {
-  line-height: 90%;
-}
